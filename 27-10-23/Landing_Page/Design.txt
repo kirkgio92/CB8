@@ -1,0 +1,29 @@
+Color Palette:
+Text Nav Bar= #FFFFFF
+General Text= #C8C2AA
+Main Color= #1D1E1F
+Second Color= #FF7A00
+
+Topic= My favorite Movies
+
+style string to let balck leather became red=
+{
+    background-image: linear-gradient(0deg, rgba(111, 25, 6, 0.82), rgba(111, 25, 6, 0.82)), radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.084) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 24.58%, rgba(0, 0, 0, 0) 49.58%, rgba(0, 0, 0, 0) 76.15%, #000000 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blta0ca93364e48293c/646440a…/leather-texture_800.webp?auto=webp);
+    background-blend-mode: color, normal, normal, normal, normal;
+}
+
+h1= 48px
+h2= 40px
+h3= 36px
+h4= 28px
+h5= 24px
+h6= 22px
+
+"Display" id needed = 56px
+
+font= 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+</style>
+font-family: 'Alegreya', serif;
+
