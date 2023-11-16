@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Bevan:ital@0;1&family=Lilita+One&family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 768px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: "Alegreya", serif;
+  font-family: "Bevan", serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* top part of the screen */
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+
+.top_header h2 {
+  font-size: 36px;
+  margin: 0;
+  width: 75%;
+}
+
+.search_cart_btns {
+  display: flex;
+  gap: 10px;
+  background-color: antiquewhite;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  width: 120px;
+}
+
+.search_cart_btns button {
+  height: 50px;
+  width: 50px;
+  border-radius: 45%;
+  border: none;
+  gap: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.search_cart_btns button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Category Navigation Buttons */
+.category_nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 12px;
+  height: 100px;
+  border-radius: 24px;
+}
+
+.category_nav button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 45%;
+  border: none;
+  gap: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.category_nav button:hover {
+  color: white;
+  background-color: black;
+}
+
+button {
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.category_nav p {
+  font-size: 2px;
+}
+
+/* Recommended title */
+.recommended h3 {
+  font-size: 30px;
+  padding: 24px 12px;
+}
+
+/* Cards Section */
+.flex_start_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+  border: 2px solid #000000;
+  border-radius: 24px;
+  padding: 12px;
+  height: 300px;
+  width: 200px;
+  box-shadow: 0px 12px 12px rgb(0, 0, 0, 0.3);
+}
+
+.card img {
+  height: 280px;
+  width: 180px;
+  object-fit: contain;
+  background-color: antiquewhite;
+  border-radius: 24px;
+  padding: 6px;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card_text h4 {
+  font-size: 20px;
+}
+
+.fa-heart {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  padding: 0;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  bottom: 16px;
+  right: 12px;
+  background: none;
+  padding: 0;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.fa-heart:hover,
+.fa-shopping-cart:hover {
+  color: white;
+  background-color: black;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .cards_container {
+    justify-content: center;
+    width: 100%;
+  }
+} */
