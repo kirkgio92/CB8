@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  max-width: 1440px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+
+h1 {
+  color: #000000;
+  margin: 24px 24px 0 24px;
+  font-size: 38px;
+  border-bottom: 2px solid #000000;
+}
+
+h3 {
+  color: #000000;
+  margin-left: 24px;
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+.navigation-menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 3px;
+}
+
+.logo-container {
+  width: 50%;
+  margin-left: 24px;
+}
+
+.navigation-links {
+  width: 50%;
+  margin-right: 24px;
+}
+
+.navigation-links ul {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 24px;
+}
+
+.navigation-links li {
+  list-style-type: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.navigation-links li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.headerBar-active-container {
+  display: flex;
+  background-color: lightgreen;
+  box-shadow: 0 0 3px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  margin: 24px 24px 0 24px;
+}
+
+.headerBar-active-container h4 {
+  width: 25%;
+  padding-left: 12px;
+}
+
+.wrapper-card {
+  display: flex;
+  color: #f0f0f0;
+  background-color: #474853;
+  margin: 0 24px 0 24px;
+  height: 65px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper-card p {
+  word-wrap: break-word;
+}
+
+.wrapper-card:hover {
+  background-color: #f0f0f0;
+  color: #000000;
+  font-weight: bold;
+}
+
+.wrapper-card p {
+  width: 25%;
+  padding-left: 12px;
+}
+
+.headerBar-NOTactive-container {
+  display: flex;
+  background-color: lightcoral;
+  box-shadow: 0 0 3px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  margin: 24px 24px 0 24px;
+}
+
+.headerBar-NOTactive-container h4 {
+  width: 25%;
+  padding-left: 12px;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-top: 24px;
+  box-shadow: 0 0 3px;
+  justify-content: center;
+  height: 200px;
+}
+
+.logoFooter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.logo-footer {
+  width: 100%;
+  height: 20%;
+}
+
+.logoFooter-container p {
+  text-align: center;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.company h4 {
+  text-align: center;
+}
+
+.company a {
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease-in;
+}
+
+.company a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-menu {
+    position: relative;
+    height: 80px;
+  }
+
+  .logo-container {
+    position: absolute;
+    margin-left: 30px;
+    top: 0;
+    left: 25%;
+  }
+
+  .logo-container img {
+    left: 50%;
+    right: 50%;
+    margin-top: 8px;
+  }
+
+  .navigation-links ul {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .website-active,
+  .website-NONactive,
+  .website-card {
+    display: none;
+  }
+
+  .wrapper-card p {
+    width: 33%;
+    padding-left: 12px;
+    word-wrap: break-word;
+  }
+
+  .headerBar-active-container h4 {
+    width: 33%;
+    padding-left: 12px;
+  }
+
+  .headerBar-NOTactive-container h4 {
+    width: 33%;
+    padding-left: 12px;
+  }
+}
