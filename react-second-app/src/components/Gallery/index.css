@@ -1,0 +1,24 @@
+.Gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgs__wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.imgs__wrapper img {
+  border-radius: 12px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.imgs__wrapper img:hover {
+  transform: translateY(-40px);
+}

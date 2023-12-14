@@ -1,0 +1,37 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 24px 24px 24px;
+}
+
+.logo__company__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.logo__company__wrapper img {
+  height: 50px;
+}
+
+.logo__company__wrapper h4,
+.logo__company__wrapper p {
+  margin: 0;
+  text-align: center;
+}
+
+.logo__company__wrapper p {
+  font-size: 12px;
+}
+
+.page__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.page__link a {
+  text-align: center;
+}
