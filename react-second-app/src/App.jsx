@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar/NavBar";
 import CardList from "./components/cardList/CardList";
 import Footer from "./components/footer/footer";
 import Gallery from "./components/Gallery/gallery";
+import Hero from "./components/hero/hero";
 import "./App.css";
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
       <Button textContent="Accetta!" />
       <Button textContent="Annulla!" /> */}
       <NavBar />
+      <Hero />
       <CardList
         cardListObj={{ title: "Indie movies ecc...", list: imagesList1 }}
       />
