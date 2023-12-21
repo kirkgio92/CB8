@@ -1,0 +1,53 @@
+.PostElement {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  gap: 12px;
+  background-color: #005c4b;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.PostElement__user--Data {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border-bottom: 2px solid #202c33;
+  padding-bottom: 12px;
+  color: #000000;
+}
+
+.PostElement__user--Data img {
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0B141A;
+}
+
+.PostElement__content,
+.PostElement__title {
+  margin: 6px 0;
+}
+
+.PostElement__likes {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.PostElement__likes--tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+}
+
+.PostElement__tags {
+  display: flex;
+  gap: 12px;
+}
+
+.PostElement__tags li {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
