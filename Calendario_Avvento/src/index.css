@@ -1,0 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #202124;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/christmas-bible-verses-manger-under-a-tree-1671636722.jpeg?crop=1.00xw:0.669xh;0,0.310xh&resize=1200:*');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
