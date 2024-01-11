@@ -1,0 +1,11 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.todoList {
+  margin: 0 auto;
+  height: 50vh;
+  width: 80vw;
+  overflow-y: auto;
+  background-color: $form-color;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}

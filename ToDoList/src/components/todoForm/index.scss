@@ -1,0 +1,44 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.todoForm {
+  @include flex-container();
+  margin: 50px;
+
+  .todoForm--MainTitle {
+    margin: 0;
+  }
+
+  .todoForm--formWrapper {
+    @include flex-container($dir: row, $align: center, $gap: 10px);
+  }
+
+  .todoForm--input {
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    padding: 0 12px;
+    background: none;
+    background-color: $form-color;
+    border-radius: $border;
+  }
+
+  ::placeholder {
+    color: black;
+  }
+
+  .todoForm--btn {
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: $border;
+    font-weight: bold;
+    background-color: $form-color;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+
+  .todoForm--btn:hover {
+    background-color: #de6161;
+  }
+}
