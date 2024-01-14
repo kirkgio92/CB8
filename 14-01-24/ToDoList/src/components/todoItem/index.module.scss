@@ -1,0 +1,56 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.todoItem {
+  @include flex-container($dir: column, $align: center, $gap: 0px);
+  margin: 20px;
+  border-radius: $border;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+
+  .userWrapper {
+    @include flex-container($dir: row, $align: center, $gap: 10px);
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .userImg {
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    background-color: #000000;
+  }
+
+  .todoWrapper {
+    @include flex-container($dir: row, $align: center, $gap: 10px);
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+.todoItem:nth-child(1n) {
+  background-color: #de9c61;
+}
+
+.todoItem:nth-child(2n) {
+  background-color: #61dec7;
+}
+
+.todoItem:nth-child(3n) {
+  background-color: #61a1de;
+}
+
+.todoItem:nth-child(4n) {
+  background-color: #8561de;
+}
+
+.todoItem:nth-child(5n) {
+  background-color: #cb61de;
+}
+
+.todoItem.todoCompleted {
+  background-color: lightgrey;
+  opacity: 0.5;
+}

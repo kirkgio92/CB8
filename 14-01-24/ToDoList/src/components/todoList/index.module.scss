@@ -1,0 +1,24 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.todoList {
+  margin: 0 auto;
+  height: 65vh;
+  width: 80vw;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: lightgray;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: lightgray;
+}
