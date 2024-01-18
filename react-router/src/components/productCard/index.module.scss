@@ -1,0 +1,90 @@
+@import "../../assets/css/variables.scss";
+
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  margin: $outer_margin;
+  align-items: center;
+  gap: 24px;
+
+  .heroImg {
+    border-radius: 24px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 200px;
+  }
+
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    padding: 24px;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+      border: none;
+    }
+
+    .imgWrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .cardImg {
+        margin: 0;
+        width: 250px;
+        height: 200px;
+        border-radius: 24px;
+        object-fit: cover;
+      }
+    }
+    .infoWrapper {
+      display: flex;
+      flex-direction: column;
+
+      .cardTitle {
+        font-size: 1.1rem;
+        margin: 0;
+      }
+
+      .category {
+        margin: 0;
+        font-size: 0.8rem;
+        color: grey;
+      }
+    }
+    .price_heart_wrapper {
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .price {
+        font-size: 2rem;
+        margin: 0;
+        font-weight: bold;
+      }
+
+      .heartIcon {
+        padding: 4px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          color: $fancy_color;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../assets/css/variables.scss";
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: $outer_margin;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000000;
+
+  .Icons {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: $fancy_color;
+      transform: scale(1.2);
+    }
+  }
+
+  .LogoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      width: 120px;
+    }
+  }
+
+  .IconsWrapper {
+    display: flex;
+    gap: 20px;
+  }
+}
