@@ -1,0 +1,87 @@
+.HowToUse {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    outline: none;
+    gap: 20px;
+  }
+
+  .inputName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    outline: none;
+  }
+
+  .inputRival {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    outline: none;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: lime;
+  }
+
+  .Tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    outline: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: lime;
+  }
+}
